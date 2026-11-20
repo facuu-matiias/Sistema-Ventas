@@ -1,0 +1,277 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261120124313
+Nombre de usuario: LAPTOP-CBNCL4UH\facun
+Usuario RunAs: LAPTOP-CBNCL4UH\facun
+Nombre de la configuración: 
+Máquina: LAPTOP-CBNCL4UH (Microsoft Windows NT 10.0.26200.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 5944
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es C:\Users\facun\Desktop\auditoria_completa.txt
+PS C:\Users\facun> cd $HOME\Desktop
+PS C:\Users\facun\Desktop> mkdir Sistema_Ventas
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\facun\Desktop\Sistema_Ventas.
+En línea: 1 Carácter: 1
++ mkdir Sistema_Ventas
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\facun\Desktop\Sistema_Ventas:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\facun\Desktop\Sistema_Ventas.
+En línea: 1 Carácter: 1
++ mkdir Sistema_Ventas
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\facun\Desktop\Sistema_Ventas:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\facun\Desktop> cd Sistema_Ventas
+PS C:\Users\facun\Desktop\Sistema_Ventas> mkdir Frontend, Backend, BaseDatos
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\facun\Desktop\Sistema_Ventas\Frontend.
+En línea: 1 Carácter: 1
++ mkdir Frontend, Backend, BaseDatos
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\facun\...Ventas\Frontend:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\facun\Desktop\Sistema_Ventas\Frontend.
+En línea: 1 Carácter: 1
++ mkdir Frontend, Backend, BaseDatos
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\facun\...Ventas\Frontend:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\facun\Desktop\Sistema_Ventas\Backend.
+En línea: 1 Carácter: 1
++ mkdir Frontend, Backend, BaseDatos
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\facun\..._Ventas\Backend:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\facun\Desktop\Sistema_Ventas\Backend.
+En línea: 1 Carácter: 1
++ mkdir Frontend, Backend, BaseDatos
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\facun\..._Ventas\Backend:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\facun\Desktop\Sistema_Ventas\BaseDatos.
+En línea: 1 Carácter: 1
++ mkdir Frontend, Backend, BaseDatos
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\facun\...entas\BaseDatos:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\facun\Desktop\Sistema_Ventas\BaseDatos.
+En línea: 1 Carácter: 1
++ mkdir Frontend, Backend, BaseDatos
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\facun\...entas\BaseDatos:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> echo "Version 1.0 del Sistema de Ventas" > README.md
+PS C:\Users\facun\Desktop\Sistema_Ventas> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Version 1.0 del Sistema de Ventas"
+PS C:\Users\facun\Desktop\Sistema_Ventas> New-Item Frontend\.gitkeep -ItemType File
+New-Item : El archivo 'C:\Users\facun\Desktop\Sistema_Ventas\Frontend\.gitkeep' ya existe.
+En línea: 1 Carácter: 1
++ New-Item Frontend\.gitkeep -ItemType File
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\facun\...ontend\.gitkeep:String) [New-Item], IOException
+    + FullyQualifiedErrorId : NewItemIOError,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : El archivo 'C:\Users\facun\Desktop\Sistema_Ventas\Frontend\.gitkeep' ya existe.
+En línea: 1 Carácter: 1
++ New-Item Frontend\.gitkeep -ItemType File
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\facun\...ontend\.gitkeep:String) [New-Item], IOException
+    + FullyQualifiedErrorId : NewItemIOError,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> New-Item Backend\.gitkeep -ItemType File
+New-Item : El archivo 'C:\Users\facun\Desktop\Sistema_Ventas\Backend\.gitkeep' ya existe.
+En línea: 1 Carácter: 1
++ New-Item Backend\.gitkeep -ItemType File
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\facun\...ackend\.gitkeep:String) [New-Item], IOException
+    + FullyQualifiedErrorId : NewItemIOError,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : El archivo 'C:\Users\facun\Desktop\Sistema_Ventas\Backend\.gitkeep' ya existe.
+En línea: 1 Carácter: 1
++ New-Item Backend\.gitkeep -ItemType File
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\facun\...ackend\.gitkeep:String) [New-Item], IOException
+    + FullyQualifiedErrorId : NewItemIOError,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> New-Item BaseDatos\.gitkeep -ItemType Filegit init
+>> ErrorTerminación(New-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'init'."
+New-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'init'.
+En línea: 1 Carácter: 1
++ New-Item BaseDatos\.gitkeep -ItemType Filegit init
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'init'.
+En línea: 1 Carácter: 1
++ New-Item BaseDatos\.gitkeep -ItemType Filegit init
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> git branch -M main
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> git add .
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> git commit -m "Día 1: Despliegue de la estructura base"git init
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> git branch -M main
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> git add .
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> git commit -m "Día 1: Despliegue de la estructura base"git remote add origin https://github.com/facuu-matiias/Sistema-Ventas.git
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> git push -u origin mainecho "Conectando al servidor SQL..." > BaseDatos\conexion.ps1
+PS C:\Users\facun\Desktop\Sistema_Ventas> echo "Actualizacion Dia 2: Modulo DB agregado" >> README.md
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Actualizacion Dia 2: Modulo DB agregado"
+PS C:\Users\facun\Desktop\Sistema_Ventas> mkdir Pruebas_Unitarias
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\facun\Desktop\Sistema_Ventas\Pruebas_Unitarias.
+En línea: 1 Carácter: 1
++ mkdir Pruebas_Unitarias
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\facun\...uebas_Unitarias:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\facun\Desktop\Sistema_Ventas\Pruebas_Unitarias.
+En línea: 1 Carácter: 1
++ mkdir Pruebas_Unitarias
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\facun\...uebas_Unitarias:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> New-Item Pruebas_Unitarias\.gitkeep -ItemType File
+
+
+    Directorio: C:\Users\facun\Desktop\Sistema_Ventas\Pruebas_Unitarias
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/11/2026     12:46              0 .gitkeep
+
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> git add .
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> git commit -m "Día 2: Agregados scripts de DB y carpeta de pruebas"
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> git pushStop-Transcript
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> move $HOME\Desktop\auditoria_completa.txt .
+move : El proceso no puede obtener acceso al archivo porque está siendo utilizado en otro proceso.
+En línea: 1 Carácter: 1
++ move $HOME\Desktop\auditoria_completa.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\facun\...ia_completa.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+move : El proceso no puede obtener acceso al archivo porque está siendo utilizado en otro proceso.
+En línea: 1 Carácter: 1
++ move $HOME\Desktop\auditoria_completa.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\facun\...ia_completa.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> move $HOME\Desktop\auditoria_completa.txt .move $HOME\Desktop\auditoria_completa.txt .
+>> ErrorTerminación(Move-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'C:\Users\facun\Desktop\auditoria_completa.txt'."
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento 
+'C:\Users\facun\Desktop\auditoria_completa.txt'.
+En línea: 1 Carácter: 1
++ move $HOME\Desktop\auditoria_completa.txt .move $HOME\Desktop\auditor ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento
+'C:\Users\facun\Desktop\auditoria_completa.txt'.
+En línea: 1 Carácter: 1
++ move $HOME\Desktop\auditoria_completa.txt .move $HOME\Desktop\auditor ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> move $HOME\Desktop\auditoria_completa.txt .
+move : El proceso no puede obtener acceso al archivo porque está siendo utilizado en otro proceso.
+En línea: 1 Carácter: 1
++ move $HOME\Desktop\auditoria_completa.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\facun\...ia_completa.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+move : El proceso no puede obtener acceso al archivo porque está siendo utilizado en otro proceso.
+En línea: 1 Carácter: 1
++ move $HOME\Desktop\auditoria_completa.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\facun\...ia_completa.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> move $HOME\Desktop\auditoria_completa.txt .
+move : El proceso no puede obtener acceso al archivo porque está siendo utilizado en otro proceso.
+En línea: 1 Carácter: 1
++ move $HOME\Desktop\auditoria_completa.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\facun\...ia_completa.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+move : El proceso no puede obtener acceso al archivo porque está siendo utilizado en otro proceso.
+En línea: 1 Carácter: 1
++ move $HOME\Desktop\auditoria_completa.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\facun\...ia_completa.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> Test-Path "$HOME\Desktop\auditoria_completa.txt"
+True
+PS C:\Users\facun\Desktop\Sistema_Ventas> auditoria_completa.txt
+auditoria_completa.txt : El término 'auditoria_completa.txt' no se reconoce como nombre de un cmdlet, función, archivo 
+de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, 
+compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ auditoria_completa.txt
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (auditoria_completa.txt:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+auditoria_completa.txt : El término 'auditoria_completa.txt' no se reconoce como nombre de un cmdlet, función, archivo
+de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso,
+compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ auditoria_completa.txt
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (auditoria_completa.txt:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> auditoria_completa.txt
+auditoria_completa.txt : El término 'auditoria_completa.txt' no se reconoce como nombre de un cmdlet, función, archivo 
+de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, 
+compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ auditoria_completa.txt
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (auditoria_completa.txt:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+auditoria_completa.txt : El término 'auditoria_completa.txt' no se reconoce como nombre de un cmdlet, función, archivo
+de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso,
+compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ auditoria_completa.txt
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (auditoria_completa.txt:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\facun\Desktop\Sistema_Ventas> move $HOME\Desktop\auditoria_completa.txt .
+move : El proceso no puede obtener acceso al archivo porque está siendo utilizado en otro proceso.
+En línea: 1 Carácter: 1
++ move $HOME\Desktop\auditoria_completa.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\facun\...ia_completa.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+move : El proceso no puede obtener acceso al archivo porque está siendo utilizado en otro proceso.
+En línea: 1 Carácter: 1
++ move $HOME\Desktop\auditoria_completa.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\facun\...ia_completa.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
